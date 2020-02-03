@@ -4,11 +4,12 @@
 ############################
 
 import psycopg2
+import sys
 
 # Change the variables accordingly
 localhost = "localhost"
-port = 5432
-dbname = "testdb"
+port = 22222
+dbname = sys.argv[1]
 user = "postgres"
 password = "jehailey"
 
